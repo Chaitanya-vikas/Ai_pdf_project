@@ -1,0 +1,6 @@
+Django
+djangorestframework
+PyPDF2
+google-genai
+python-dotenv
+gunicorn
