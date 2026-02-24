@@ -54,8 +54,6 @@ python manage.py migrate
 The application will now be running at http://127.0.0.1:8000/
 ```
 
-
-
 **🔌 API Documentation**
 POST /api/chat-pdf/
 Accepts a PDF document and a text query, returning an AI-generated answer.
@@ -80,6 +78,7 @@ JSON
 {
     "error": "No text found. This PDF might be a scanned image."
 }
+
 ## 📸 Screenshots
 ![Ai_Pdf](https://github.com/user-attachments/assets/b2cece73-c555-413d-b540-54ffd4cf1799)
 
