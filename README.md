@@ -52,7 +52,7 @@ GEMINI_API_KEY=your_actual_api_key_here
 python manage.py migrate
 
 The application will now be running at http://127.0.0.1:8000/
-
+```
 
 
 
