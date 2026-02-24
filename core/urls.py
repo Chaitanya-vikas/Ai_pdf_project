@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-from pdf_chat.views import index # Import your new view
+from pdf_chat.views import index # Importing new view
 
 urlpatterns = [
     path('admin/', admin.site.urls),

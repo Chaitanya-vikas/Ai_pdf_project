@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from .utils import extract_text_from_pdf, get_ai_response
 from django.shortcuts import render
 
-# Add this right above your chat_with_pdf API view
+
 def index(request):
     return render(request, 'index.html')
 
