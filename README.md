@@ -80,5 +80,5 @@ JSON
 {
     "error": "No text found. This PDF might be a scanned image."
 }
-
+## 📸 Screenshots
 ![overview](Ai_Pdf.jpg)
