@@ -34,7 +34,7 @@ If you would like to run this project locally, follow these steps:
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/ai-pdf-intelligence.git](https://github.com/Chaitanya-vikas/Ai_pdf_project)
+git clone (https://github.com/Chaitanya-vikas/Ai_pdf_project)
 cd ai-pdf-intelligence
 
 **2. Set up a virtual environment**
@@ -48,13 +48,15 @@ pip install -r requirements.txt
 Create a .env file in the root directory and add your Google Gemini API key:
 GEMINI_API_KEY=your_actual_api_key_here
 
-**5. Run database migrations
+**5. Run database migrations**
 python manage.py migrate
 
 The application will now be running at http://127.0.0.1:8000/
-```bash
 
-🔌 API Documentation
+
+
+
+**🔌 API Documentation**
 POST /api/chat-pdf/
 Accepts a PDF document and a text query, returning an AI-generated answer.
 
