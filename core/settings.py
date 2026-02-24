@@ -29,7 +29,7 @@ DEBUG = False
 # 2. Allow any server (like Render) to host your app
 ALLOWED_HOSTS = ['*']
 
-# Add this line to trust Render's HTTPS domains for form submissions
+#to trust Render's HTTPS domains for form submissions
 CSRF_TRUSTED_ORIGINS = ['https://*.onrender.com']
 
 
